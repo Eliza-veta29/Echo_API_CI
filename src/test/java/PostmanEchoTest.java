@@ -15,7 +15,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equals("some data"))
+                .body("data", equals("sky"))
         ;
     }
 
